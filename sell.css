@@ -1,0 +1,283 @@
+#shivam{
+    display: flex;
+    background-color: black;
+}
+#img{
+	height: 55px;
+	width: 100px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+#s1{
+	width: 650px;
+	height: 30px;
+	margin-top: 12px;
+	margin-left: 60px;
+}
+#error ul{
+    display: flex;
+    list-style: none;
+    color: white;
+}
+#s{
+    font-size: 20px;
+}
+#s:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+#s2{
+	margin-left: 40px;
+	font-size: 20px;
+}
+#s2:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+#s100{
+	margin-left: 40px;
+	font-size: 20px;
+}
+#s100:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+#navbar{
+	background-color: #ffecb9;
+	margin-top: 20px;
+	display: flex;
+}
+#cr{
+    margin-top: 120px;
+    font-size: 36px;
+    margin-left: 170px;
+    width: 450px;
+    font-family: 'Rubik', sans-serif;
+}
+#home{
+	margin-left: 100px;
+	margin-top: 20px;
+}
+#s10{
+	margin-top: 50px;
+	background-color: #fbe29b;
+	display: flex;
+	height: 550px;
+}
+.event{
+	display: flex;
+}
+#s13{
+	margin-top: 150px;
+	margin-left: 150px;
+}
+#s14{
+    margin-top: 50px;
+	margin-left: 150px;
+}
+#s15{
+    margin-top: 50px;
+	margin-left: 150px;
+}
+#s16{
+	font-size: 25px;
+	margin-top: 150px;
+	margin-left: 20px;
+}
+#s17{
+	font-size: 25px;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+#s18{
+	font-size: 25px;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+#k{
+	margin-left: 250px;
+	margin-top: 100px;
+}
+#s20{
+	font-size: 20px;
+	font-family: 'Rubik', sans-serif;
+}
+#s21{
+	font-size: 25px;
+	width: 400px;
+}
+#sanitize{
+	height: 50px;
+	border-radius: 5px;
+	border-color: #4c7be8;
+	width: 120px;
+	color: #4c7be8;
+	background-color: #fbe29b; 
+}
+#sanitize:hover{
+	cursor: pointer;
+}
+.adam{
+	font-family: 'Rubik', sans-serif;
+}
+#tg{
+	font-size: 35px;
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Rubik', sans-serif;
+}
+#a1{
+	display: flex;
+	background-color: #201d3a;
+	color: white;
+}
+.a2 ul{
+	list-style: none;
+	margin-left: 75px;
+	font-size: 20px;
+}
+.a3{
+	font-family: 'Rubik', sans-serif;
+}
+.a4{
+	margin-top: 12px;
+}
+.a2 ul li:hover{
+	cursor: pointer;
+}
+.time{
+	color: white;
+	text-decoration: none;
+}
+#time{
+	color: white;
+	font-size: 20px; 
+}
+#uid{
+	background-color: black;
+	height: 30px;
+	text-align: center;
+}
+@media (max-width: 1272px) and (min-width: 1024px){
+    #shivam{
+    	width: 100%;
+    }
+    #home img{
+    	width: 500px;
+    }
+    #s16{
+	    font-size: 13px;
+	    margin-left: 10px;
+    }
+    #s17{
+	    font-size: 13px;
+	    margin-top: 80px;
+	    margin-left: 10px;
+    }
+    #s18{
+	    font-size: 13px;
+	    margin-top: 80px;
+	    margin-left: 10px;
+    }
+    #s10{
+	    margin-top: 30px;
+	    background-color: #fbe29b;
+	    display: flex;
+	    height: 520px;
+    }
+    #k{
+        text-align: center;
+    }
+    #k img{
+    	height: 150px;
+    	width: 200px;
+    }
+    #shi{
+    	width: 500px;
+    }
+    .a2 ul{
+        font-size: 10px;
+    }
+}
+@media (max-width: 1023px) and (min-width: 600px){
+	#shivam{
+    	width: 100%;
+    }
+    #home img{
+    	width: 400px;
+    }
+    #s16{
+	    font-size: 12px;
+	    margin-left: 8px;
+    }
+    #s17{
+	    font-size: 12px;
+	    margin-top: 70px;
+	    margin-left: 8px;
+    }
+    #s18{
+	    font-size: 12px;
+	    margin-top: 70px;
+	    margin-left: 8px;
+    }
+    #s10{
+	    margin-top: 25px;
+	    background-color: #fbe29b;
+	    display: flex;
+	    height: 560px;
+    }
+    #k{
+        text-align: center;
+    }
+    #k img{
+    	height: 100px;
+    	width: 150px;
+    }
+    #shi{
+    	width: 300px;
+    }
+    .a2 ul{
+        font-size: 10px;
+    }
+}
+@media (max-width: 599px) and (min-width: 100px){
+	#shivam{
+    	width: 100%;
+    }
+    #home img{
+    	width: 400px;
+    }
+    #s16{
+	    font-size: 12px;
+	    margin-left: 8px;
+    }
+    #s17{
+	    font-size: 12px;
+	    margin-top: 70px;
+	    margin-left: 8px;
+    }
+    #s18{
+	    font-size: 12px;
+	    margin-top: 70px;
+	    margin-left: 8px;
+    }
+    #s10{
+	    margin-top: 25px;
+	    background-color: #fbe29b;
+	    display: flex;
+	    height: 560px;
+    }
+    #k{
+        text-align: center;
+    }
+    #k img{
+    	height: 100px;
+    	width: 150px;
+    }
+    #shi{
+    	width: 300px;
+    }
+    .a2 ul{
+        font-size: 14px;
+    }
+}
